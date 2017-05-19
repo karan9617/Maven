@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/r"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdebebeb">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:text="Bhopal"
+        android:layout_marginTop="440dp"
+        android:padding="11dp"
+        android:textColor="#ffffff"
+        android:id="@+id/city_head"
+        android:background="#4876FF" />
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="135dp"
+       android:src="@drawable/ic_action_new"
+       android:layout_marginTop="500dp"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/image"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Distance:"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="635dp"
+        android:textSize="23dp"
+        android:id="@+id/distanceText"
+        android:textColor="#ff030303"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:paddingLeft="20dp"
+        android:text="Time:"
+        android:layout_marginTop="677dp"
+        android:textSize="23dp"
+        android:id="@+id/timeText"
+        android:textColor="#ff030303"
+        android:background="#ffffff" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Temp:"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="722dp"
+        android:textSize="23dp"
+        android:id="@+id/tempText"
+        android:textColor="#ff030303"
+        android:background="#ffffff" />
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temp:"
+        android:paddingLeft="35dp"
+        android:layout_marginTop="773dp"
+       android:layout_marginBottom="20dp"
+       android:paddingRight="35dp"
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/wikiText"
+        android:textColor="#ff030303"
+        android:background="#ffffff"
+       />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather Reports"
+            android:textSize="24dp"
+            android:layout_marginTop="450dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/weather_report"
+            android:textColor="#ffa8a8a8" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sunimage"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="569dp"
+            android:layout_marginRight="14dp"
+            android:id="@+id/sunimage"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Restaurants"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"
+            android:textColor="#ffffff"
+            android:id="@+id/restaurant"
+
+           />
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Restauramnts in the nearby area"
+        android:id="@+id/restaurant_text"
+        android:textSize="15dp"
+        android:textColor="#ffbfbfbf"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="510dp"/>
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/resimages"
+            android:layout_marginRight="10dp"
+            android:id="@+id/restaurant_image"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance:"
+            android:id="@+id/resdistance"
+            android:layout_marginTop="565dp"
+            android:layout_marginLeft="20dp"
+
+            android:textColor="#ffb1b1b1" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/marker"
+            android:layout_marginTop="555dp"
+            android:layout_marginLeft="164dp"
+            android:id="@+id/resMarker"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divide_converted2"
+            android:layout_marginTop="485dp"
+            android:id="@+id/divider1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divide_converted2"
+            android:layout_marginTop="595dp"
+            android:id="@+id/divider2"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divide_converted2"
+            android:layout_marginTop="632dp"
+            android:id="@+id/divider3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="599dp"
+            android:text="Google search"
+            android:id="@+id/google_search"
+
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="29dp"
+            android:layout_marginTop="490dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/cityName"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/maxTemp"
+            android:textSize="56dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="533dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="612dp"
+            android:text="Min Temp:"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/minTemp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="649dp"
+            android:text="Humidity:"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/humidity"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="696dp"
+            android:text="Humidity:"
+            android:textSize="18dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/weatherText"
+            android:textColor="#ffffff" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divide_converted"
+            android:layout_marginTop="694dp"
+            android:id="@+id/divider23"
+            />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/marker"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="690dp"
+            android:id="@+id/marker"
+            />
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:id="@+id/map"
+            tools:context="com.example.win_8.voicemail.MapsActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment" />
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

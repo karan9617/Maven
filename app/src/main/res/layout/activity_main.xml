@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="#ea000000"
+    android:focusable="false"
+    android:focusableInTouchMode="false">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_above="@+id/siriButton"
+        android:id="@+id/scrollView6"
+        android:layout_centerHorizontal="true"
+        android:background="#bf1a1a1a"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relShow">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/initial"
+            android:background="#ffe0e0e0" />
+        </RelativeLayout>
+</ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_above="@+id/siriButton"
+        android:id="@+id/scrollView5"
+        android:layout_centerHorizontal="true"
+        android:background="#bf1a1a1a"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relative2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="17dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:id="@+id/qHead"
+                android:layout_marginTop="60dp"
+                android:background="#96ffffff"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:id="@+id/qAnswer"
+                android:textSize="17dp"
+                android:layout_marginTop="147dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_above="@+id/siriButton"
+        android:id="@+id/scrollView4"
+        android:layout_centerHorizontal="true"
+
+        android:background="#bb202020">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relative"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="69dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:id="@+id/Hour1"
+            android:layout_marginTop="60dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:id="@+id/Hour2"
+            android:textSize="28dp"
+            android:layout_marginTop="137dp"
+
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:id="@+id/timerValue"
+                android:textSize="28dp"
+                android:layout_marginTop="137dp"
+
+                />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22dp"
+            android:id="@+id/startButtonLabel"
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pause"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="22dp"
+                android:id="@+id/pauseButtonLabel"
+                />
+</RelativeLayout>
+        </ScrollView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/textView1"
+    android:layout_above="@+id/siriButton"
+    android:background="#e70d0d0d"
+    android:padding="20dp"
+    android:id="@+id/scrollView3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frontBackground1"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Weather Reports"
+            android:textSize="28dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#fff9f9f9"
+            android:id="@+id/weather_report"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divide_converted"
+            android:layout_marginTop="48dp"
+            android:id="@+id/divider3"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="37dp"
+            android:textColor="#ffffff"
+            android:id="@+id/city"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="1dp"
+            android:text="Min Temp:"
+            android:textSize="22dp"
+            android:textColor="#ffffff"
+            android:id="@+id/Mintemphead"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="100dp"
+            android:text=""
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            android:id="@+id/Mintempheadvalue"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginTop="108dp"
+            android:layout_marginLeft="24dp"
+            android:text=""
+            android:textSize="57dp"
+            android:textColor="#ffffff"
+            android:id="@+id/Maxtempheadvalue"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="281dp"
+            android:layout_marginLeft="1dp"
+            android:text="Humidity:"
+            android:textSize="22dp"
+            android:textColor="#ffffff"
+            android:id="@+id/Humidityhead"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="281dp"
+            android:layout_marginLeft="100dp"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            android:id="@+id/Humidityheadvalue"
+            />
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="153dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/partlyrainy"
+            android:layout_marginRight="10dp"
+            android:id="@+id/weatherImage"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            />
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/divide_converted"
+    android:layout_marginTop="359dp"
+    android:id="@+id/divider4"
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="6dp"
+            android:id="@+id/weatherText"
+            android:layout_marginTop="375dp"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:background="#70ffffff"
+            android:textColor="#ffffff" />
+
+        </RelativeLayout>
+</ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_above="@+id/siriButton"
+        android:id="@+id/frontBackground"
+        android:background="#b60a0a0a">
+
+
+        </RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+         />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/siriButton"
+        android:layout_marginTop="-19dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask Anything?"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/textAnim1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wikipedia Mark Zuckerberg"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/aftertextAnim2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Say 'I hate you ' in Chinese"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/textAnim2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn BlueTooth ON"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/aftertextAnim3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate 24x7"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/textAnim3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remind me that... at 6.00am"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/aftertextAnim4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meaning of Preposterous"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/afteraftertextAnim2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who is the tallest man?"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/afteraftertextAnim3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="'Weather of' San Diego"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/afteraftertextAnim4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set an alarm for.."
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/textAnim4"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_above="@+id/siriButton"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/searchListView"
+        android:background="#ffffff">
+        </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/siriButton"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/reminderLayout"
+        android:background="#0fff0065">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="11dp"
+        android:id="@+id/reminderlv"
+        android:background="#1effffff">
+        </ListView>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:textColor="#ffffff"
+        android:text="Maven here...How Can i Help You??"
+        android:textColorHighlight="#ffffff"
+
+        android:textSize="23dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/siri"
+            android:id="@+id/siriButton"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="48dp"
+           />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:id="@+id/menu"
+        android:layout_alignTop="@+id/progressBar1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:text=""
+        android:textSize="28dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="170dp"
+        android:id="@+id/calculateResult"
+        android:clickable="false"
+        android:background="#78ffffff"
+        android:autoText="true"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/siriButton"
+        android:padding="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="30dp"
+        android:layout_marginTop="97dp"
+        android:focusable="false"
+        android:layout_toEndOf="@+id/siriButton"
+        android:background="#67ffffff"
+
+        android:focusableInTouchMode="false"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+
+                android:gravity="center"
+                android:textSize="28dp"
+                android:textColor="#ffffff"
+                android:id="@+id/wikipedia"
+                />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textHead"
+            android:textColor="#ff222222"
+            android:textSize="28dp"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/dictionary"
+                android:layout_marginTop="40dp"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/divide_converted"
+            android:id="@+id/divider"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:id="@+id/textMeaning"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="159dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:textColor="#ffffff"
+
+           />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:id="@+id/listview"
+               android:layout_marginTop="20dp"
+                >
+
+
+                </ListView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:focusableInTouchMode="false">
+
+                <TextView
+                android:layout_width="334dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff1e1e1e"
+                android:id="@+id/wikiText"
+                android:padding="12dp"
+        android:background="#a7ffffff"
+                    />
+
+            <ImageView
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="83dp"
+                android:id="@+id/wikiImage"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:background="#4effffff"
+
+                />
+                <TextView
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sideWiki"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="259dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ffcacaca"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+</ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/siriButton"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/scrollView1"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#43ffffff">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/whiteLayout"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            >
+
+
+          <!--  <fragment
+                android:id="@+id/map"
+                class="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="40dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:background="@android:drawable/dialog_holo_light_frame"
+
+                />-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=""
+                android:textSize="20dp"
+                android:id="@+id/mapHead"
+                android:layout_marginTop="296dp"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="30dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textColor="#ffffff" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

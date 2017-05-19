@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="8dp"
+    android:layout_margin="17dp"
+    android:paddingBottom="8dp"
+    android:weightSum="1"
+    android:background="#3cffffff">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reminder"
+        android:textSize="23dp"
+        android:id="@+id/reminder"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        android:textColor="#ffffff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/link"
+        android:textSize="18dp"
+        android:id="@+id/message"
+
+        android:layout_marginLeft="15dp"
+        android:textColor="#ffffff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Text"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"
+        android:textSize="18dp"
+        android:id="@+id/alarm"
+        android:textColor="#000000"
+        android:password="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="AM"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentRight="true"
+        android:textSize="18dp"
+        android:id="@+id/ampm"
+        android:textColor="#ff9b9b9b"
+        android:singleLine="true" />
+</RelativeLayout>
